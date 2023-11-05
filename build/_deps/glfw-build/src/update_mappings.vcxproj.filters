@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\CMakeFiles\ade6c040a5fa3bef12889735ccbc8250\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15D76D77-C250-35B5-9045-A05F86FBE509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E7149E8A-85F3-3693-9723-B55789CDFAA9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

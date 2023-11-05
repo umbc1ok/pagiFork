@@ -1,0 +1,10 @@
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\CMAKEFILES\7EEF888F77B87B7E3F2B6572899753B0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/umbci/source/repos/pagiFork -BC:/Users/umbci/source/repos/pagiFork/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/umbci/source/repos/pagiFork/build/OpenGLGP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\assimp-subbuild\CMakeFiles\79fad8ddc53ed76fadef1261ab34857c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{66281103-C2CA-32E0-9BA6-DE0DD49A62F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\57effc801d56de641e6305e154af61f8\spdlog-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\48d8b82a98074a05290514951508c4c7\spdlog-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\e5a19b37943435d1afcf6dff390bf752\spdlog-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{68EB5D19-2099-3E26-9DAE-09ED414D0273}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

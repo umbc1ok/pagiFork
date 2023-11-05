@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\CMakeFiles\43a6b98202fb2f4264a149b34d70bd91\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\assimp-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\assimp-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15D76D77-C250-35B5-9045-A05F86FBE509}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

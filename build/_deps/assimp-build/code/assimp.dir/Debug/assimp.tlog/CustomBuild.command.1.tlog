@@ -1,0 +1,10 @@
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\ASSIMP-SRC\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/umbci/source/repos/pagiFork -BC:/Users/umbci/source/repos/pagiFork/build --check-stamp-file C:/Users/umbci/source/repos/pagiFork/build/_deps/assimp-build/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

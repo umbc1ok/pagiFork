@@ -1,0 +1,150 @@
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\57EFFC801D56DE641E6305E154AF61F8\SPDLOG-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\48D8B82A98074A05290514951508C4C7\SPDLOG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/CMakeFiles/Debug/spdlog-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\E5A19B37943435D1AFCF6DFF390BF752\SPDLOG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild -BC:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild --check-stamp-file C:/Users/umbci/source/repos/pagiFork/build/_deps/spdlog-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

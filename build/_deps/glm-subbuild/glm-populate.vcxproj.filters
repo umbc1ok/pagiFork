@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\a0878333fc5713e3f5a2f57d75b38941\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\4a407e6248e8eb615cdc7ef3ec65de09\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\0a4a278dbe964f07c40d86bda5e5478a\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\umbci\source\repos\pagiFork\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3DAD1BE1-B028-345D-8FDC-F0837FB00885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

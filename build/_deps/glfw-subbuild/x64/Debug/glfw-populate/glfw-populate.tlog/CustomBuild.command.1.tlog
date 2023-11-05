@@ -1,0 +1,150 @@
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\645B3192C1C3C48DD9604505C2EDA50E\GLFW-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\umbci\source\repos\pagiFork\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\B3758A0BCA3E5DD365DF6307FC925988\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\8EEEFAB4B5F0BCEE877EF6F2CB8AC9DF\GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\UMBCI\SOURCE\REPOS\PAGIFORK\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild -BC:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild --check-stamp-file C:/Users/umbci/source/repos/pagiFork/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
